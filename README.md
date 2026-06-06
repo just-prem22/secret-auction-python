@@ -188,7 +188,7 @@ flowchart TD
 
 <tr>
 <td><strong>3️⃣ Run Program</strong></td>
-<td><code>python secret_auction.py</code></td>
+<td><code>secret_auction.py</code></td>
 <td>Launch the auction simulator</td>
 </tr>
 
