@@ -88,29 +88,28 @@ Winning Bid: $500
 
 ---
 
-# 🧠 Auction Workflow
+## 🧠 Auction Workflow
 
 ```mermaid
-flowchart TD
+flowchart LR
+    A[Start Auction] --> B[Enter Name]
+    B --> C[Enter Bid]
+    C --> D[Store Bid]
 
-    A[🔨 Start Auction] --> B[Enter Bidder Name]
+    D --> E{More Bidders}
 
-    B --> C[Enter Bid Amount]
-
-    C --> D[Store Bid In Dictionary]
-
-    D --> E{More Bidders?}
-
-    E -->|Yes| B
-
-    E -->|No| F[Find Highest Bid]
+    E -- Yes --> B
+    E -- No --> F[Find Highest Bid]
 
     F --> G[Determine Winner]
-
-    G --> H[Display Result]
-
+    G --> H[Display Winner]
     H --> I[End Auction]
 ```
+
+
+
+
+
 
 ---
 
