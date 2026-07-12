@@ -386,7 +386,7 @@ If you found this project helpful or interesting, consider supporting it.
 * ⭐ Star this repository
 * 🍴 Fork the project
 * 🛠️ Contribute improvements
-* 📢 Share it with other learners
+* 📢 Share it with other 
 
 ---
 
